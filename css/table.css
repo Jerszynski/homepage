@@ -1,0 +1,45 @@
+.section__table {
+  border-collapse: collapse;
+  width: 100%;
+  overflow-x: auto;
+}
+
+.section__tableCaption {
+  text-decoration: underline;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.section__table--header {
+  background-color: #a0e0e9;
+}
+
+.section__tableRow:nth-child(even) {
+  background-color: #cae7eb;
+}
+
+.section__tableRow:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+.section__tableRow:hover {
+  background-color: #68ccda;
+}
+
+.section__tableCell:hover {
+  font-weight: 700;
+  background-color: #68ccda;
+  border: 3px dashed rgb(0, 0, 0);
+}
+
+.section__tableCell {
+  border: 1px solid #000;
+  text-align: center;
+  padding: 5px;
+}
+
+.section__tableFlagImg {
+  width: 20px;
+  height: 20px;
+}

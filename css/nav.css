@@ -1,0 +1,33 @@
+.nav {
+  background-color: rgb(246, 246, 246);
+  padding: 5px 0;
+}
+
+.nav__header {
+  margin: 5px 0;
+  margin-left: 20px;
+  background-color: rgb(246, 246, 246);
+}
+
+.nav__list {
+  list-style-type: none;
+  text-align: right;
+}
+
+.nav__listItem {
+  display: inline-block;
+  padding: 4px;
+  margin: 5px 5px;
+  color: #000;
+  font-size: 16px;
+}
+
+.nav__link:link,
+.nav__link:visited {
+  text-decoration: none;
+  color: #000;
+}
+
+.nav__listItem:hover {
+  text-decoration: underline;
+}
