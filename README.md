@@ -24,8 +24,4 @@ https://jerszynski.github.io/homepage/
 
 - Below is quick look on website:<br />
 
-<<<<<<< HEAD
 <img src="images/Animation.gif" width="500" height="500">
-=======
-<img src="images/Animation.gif" width="400" height="400">
->>>>>>> e805dcca0326f511e7e787980b710bf77c048edb
