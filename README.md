@@ -2,21 +2,11 @@
 
 #### First steps in coding and programming
 
----
-
----
-
-<br />
-
 ## DEMO
 
 https://jerszynski.github.io/homepage/
 
 ---
-
----
-
-<br />
 
 #### Languages used in project:
 
@@ -26,10 +16,6 @@ https://jerszynski.github.io/homepage/
 
 ---
 
----
-
-<br />
-
 - Welcome to my first page on which I'm showing you some basics information of Chess pieces. <br />
   You will find short info about Pawn, King and Queen in Polish language.<br />
   Also you can find two button to check my small interaction with a website.
@@ -38,4 +24,4 @@ https://jerszynski.github.io/homepage/
 
 - Below is quick look on website:<br />
 
-![Animation of website](images/Animation.gif)
+<img src="images/Animation.gif" width="300" height="300">
