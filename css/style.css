@@ -37,7 +37,7 @@ html {
   text-align: center;
 }
 
-.section__linksImg {
+.section__linksImage {
   width: 140px;
   height: 60px;
   margin-bottom: 8px;
@@ -67,7 +67,7 @@ html {
   font-weight: 700;
 }
 
-.body__newBGcolor {
+.body__newBackgroundColor {
   background-color: rgb(246, 246, 246);
 }
 

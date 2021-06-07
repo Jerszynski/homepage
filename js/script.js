@@ -5,61 +5,66 @@
     );
   };
 
-  const sectionButtonChanger = document.querySelector(".js__colorSwitch");
+  const headerColorChangeButton = document.querySelector(".js-colorSwitch");
 
   const changeHeaderColorOnClick = () => {
-    const changer = document.querySelector(".js-coloredHeader");
+    const coloredHeader = document.querySelector(".js-coloredHeader");
 
-    switch (sectionButtonChanger.innerText) {
+    switch (headerColorChangeButton.innerText) {
       case "Zmień kolor nagłówka na czerwony":
-        changer.classList.toggle("red__linksHeader");
-        sectionButtonChanger.innerText = "Zmień kolor nagłówka na niebieski";
+        coloredHeader.classList.toggle("red__linksHeader");
+        headerColorChangeButton.innerText = "Zmień kolor nagłówka na niebieski";
         break;
 
       case "Zmień kolor nagłówka na niebieski":
-        changer.classList.remove("red__linksHeader");
-        changer.classList.toggle("blue__linksHeader");
-        sectionButtonChanger.innerText = "Zmień kolor nagłówka na zielony";
+        coloredHeader.classList.remove("red__linksHeader");
+        coloredHeader.classList.toggle("blue__linksHeader");
+        headerColorChangeButton.innerText = "Zmień kolor nagłówka na zielony";
         break;
 
       case "Zmień kolor nagłówka na zielony":
-        changer.classList.remove("blue__linksHeader");
-        changer.classList.toggle("green__linksHeader");
-        sectionButtonChanger.innerText = "Zmień kolor nagłówka na żółty";
+        coloredHeader.classList.remove("blue__linksHeader");
+        coloredHeader.classList.toggle("green__linksHeader");
+        headerColorChangeButton.innerText = "Zmień kolor nagłówka na żółty";
         break;
 
       case "Zmień kolor nagłówka na żółty":
-        changer.classList.remove("green__linksHeader");
-        changer.classList.toggle("yellow__linksHeader");
-        sectionButtonChanger.innerText = "Zmień kolor nagłówka na czarny";
+        coloredHeader.classList.remove("green__linksHeader");
+        coloredHeader.classList.toggle("yellow__linksHeader");
+        headerColorChangeButton.innerText = "Zmień kolor nagłówka na czarny";
         break;
 
       case "Zmień kolor nagłówka na czarny":
-        changer.classList.remove("yellow__linksHeader");
-        sectionButtonChanger.innerText = "Zmień kolor nagłówka na czerwony";
+        coloredHeader.classList.remove("yellow__linksHeader");
+        headerColorChangeButton.innerText = "Zmień kolor nagłówka na czerwony";
         break;
 
       default:
-        sectionButtonChanger.innerText = "Something were wrong!!";
+        headerColorChangeButton.innerText = "Something were wrong!!";
     }
   };
 
-  const sectionButton = document.querySelector(".section__button");
+  const backgroundColorChangeButton = document.querySelector(
+    ".js-changeBackground"
+  );
 
   const changeBackgroundOnClick = () => {
-    const bodyNewBGcolor = document.querySelector(".body");
+    const bodyNewBackgroundColor = document.querySelector(".body");
 
-    sectionButton.innerText === "Zmień motyw"
-      ? (sectionButton.innerText = "Zmień motyw ponownie") &&
-        bodyNewBGcolor.classList.toggle("body__newBGcolor")
-      : (sectionButton.innerText = "Zmień motyw") &&
-        bodyNewBGcolor.classList.toggle("body__newBGcolor");
+    backgroundColorChangeButton.innerText === "Zmień motyw"
+      ? (backgroundColorChangeButton.innerText = "Zmień motyw ponownie") &&
+        bodyNewBackgroundColor.classList.toggle("body__newBackgroundColor")
+      : (backgroundColorChangeButton.innerText = "Zmień motyw") &&
+        bodyNewBackgroundColor.classList.toggle("body__newBackgroundColor");
   };
 
   const init = () => {
-    sectionButtonChanger.addEventListener("click", changeHeaderColorOnClick);
+    headerColorChangeButton.addEventListener("click", changeHeaderColorOnClick);
 
-    sectionButton.addEventListener("click", changeBackgroundOnClick);
+    backgroundColorChangeButton.addEventListener(
+      "click",
+      changeBackgroundOnClick
+    );
 
     welcome();
   };
