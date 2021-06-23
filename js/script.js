@@ -51,10 +51,10 @@
   const changeBackgroundOnClick = () => {
     const bodyNewBackgroundColor = document.querySelector(".body");
 
-    backgroundColorChangeButton.innerText === "Zmień motyw"
-      ? (backgroundColorChangeButton.innerText = "Zmień motyw ponownie") &&
+    backgroundColorChangeButton.innerText === "Zmień kolor tła"
+      ? (backgroundColorChangeButton.innerText = "Zmień kolor tła ponownie") &&
         bodyNewBackgroundColor.classList.toggle("body__newBackgroundColor")
-      : (backgroundColorChangeButton.innerText = "Zmień motyw") &&
+      : (backgroundColorChangeButton.innerText = "Zmień kolor tła") &&
         bodyNewBackgroundColor.classList.toggle("body__newBackgroundColor");
   };
 

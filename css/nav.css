@@ -1,6 +1,7 @@
 .navigation {
   background-color: rgb(246, 246, 246);
   padding: 5px 0;
+  border-bottom: 1px solid #bbb;
 }
 
 .navigation__header {
@@ -12,12 +13,14 @@
 .navigation__list {
   list-style-type: none;
   text-align: right;
+  padding: 0;
+  margin: 10px 0;
 }
 
 .navigation__listItem {
   display: inline-block;
   padding: 4px;
-  margin: 5px 5px;
+  margin: 10px 10px;
   color: #000;
   font-size: 16px;
 }
@@ -30,4 +33,9 @@
 
 .navigation__listItem:hover {
   text-decoration: underline;
+}
+
+.navigation__listItem:active {
+  border-radius: 5px;
+  box-shadow: 1px 1px 4px #9e9e9e;
 }

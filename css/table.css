@@ -15,6 +15,10 @@
   background-color: #a0e0e9;
 }
 
+.section__tableContainer {
+  overflow-x: auto;
+}
+
 .section__tableRow:nth-child(even) {
   background-color: #cae7eb;
 }
@@ -28,9 +32,9 @@
 }
 
 .section__tableCell:hover {
-  font-weight: 700;
-  background-color: #68ccda;
-  border: 3px dashed rgb(0, 0, 0);
+  background-color: #2593a2;
+  text-decoration: underline;
+  color: rgb(255, 255, 255);
 }
 
 .section__tableCell {
